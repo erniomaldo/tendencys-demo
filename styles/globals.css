@@ -1,16 +1,27 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
 }
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.main-content {
+  padding: 0 50px;
+}
+.header-text {
+  color: white;
+  font-size: 140%;
+}
+.dato-orden .ant-comment-inner{
+  padding: 7px 0;
 
-* {
-  box-sizing: border-box;
 }
