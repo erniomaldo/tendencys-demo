@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run build && gcloud config set project tendencys-demo && gcloud app deploy --quiet"
   },
   "dependencies": {
     "antd": "^4.10.0",
