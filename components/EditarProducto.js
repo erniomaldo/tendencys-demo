@@ -91,7 +91,6 @@ const EditarProducto = ({ productoSeleccionado, setProductoSeleccionado, guardar
           >
             <Input type="number" />
           </Form.Item>
-          {JSON.stringify(producto)}
         </Form>
         : null}
     </Modal >

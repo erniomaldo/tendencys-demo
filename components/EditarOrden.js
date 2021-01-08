@@ -100,7 +100,7 @@ const EditarOrden = ({ orderSelected }) => {
                   </Row>
                 </Col>
                 <Col span={24} md={4}>
-                  <Button onClick={() => swal("Good job!", "You clicked the button!", "success")}>
+                  <Button onClick={() => swal("¡Gracias por tu compra!", "Te hemos enviado un correo electrónico con los detalles de la compra.", "success")}>
                     Pagar
                   </Button>
                 </Col>

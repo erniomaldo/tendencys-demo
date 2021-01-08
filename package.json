@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 8080",
     "deploy": "npm run build && gcloud config set project tendencys-demo && gcloud app deploy --quiet"
   },
   "dependencies": {
